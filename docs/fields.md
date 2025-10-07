@@ -1,6 +1,6 @@
 # Data Model — Fields Reference
 
-## Supplier__c
+## Supplier__c  (✅ Done)
 
 * **Supplier_Name__c** — Text (80)
 * **Supplier_Code__c** — Text (20) — Unique
