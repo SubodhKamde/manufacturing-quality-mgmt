@@ -15,7 +15,7 @@
 * **Contract_Start_Date__c** — Date
 * **Contract_End_Date__c** — Date
 
-## Purchase_Order__c
+## Purchase_Order__c. (✅ Done)
 
 * **PO_Number__c** — Auto-number `PO-{00000}`
 * **Supplier__c** — Lookup(Supplier__c)
@@ -26,7 +26,7 @@
 * **Total_Amount__c** — Currency
 * **Delivery_Status__c** — Text
 
-## Quality_Inspection__c
+## Quality_Inspection__c. (✅ Done)
 
 * **Inspection_Name__c** — Auto-number `INS-{00000}`
 * **Purchase_Order__c** — Lookup(Purchase_Order__c)
