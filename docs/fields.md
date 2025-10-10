@@ -25,7 +25,8 @@
 * **Status__c** — Picklist: Draft, Submitted, Delivered, Cancelled
 * **Total_Amount__c** — Currency
 * **Delivery_Status__c** — Text
-
+***Delivery_Delay_Days__c — Formula (Number)
+***Automation Flow — auto-updates Delivery Status
 ## Quality_Inspection__c. (✅ Done)
 
 * **Inspection_Name__c** — Auto-number `INS-{00000}`
@@ -38,3 +39,18 @@
 * **Defect_Rate__c** — Formula: `(Defects_Found__c / Sample_Size__c) * 100`
 * **Status__c** — Picklist: Pass, Fail
 * **Notes__c** — Long Text Area
+
+
+✅ Mark validation rules added
+
+✅ Mark reports created
+
+## Reports & Validation Rules
+
+### Validation Rules
+* Supplier: Require either Email or Phone
+* Purchase Order: Expected Delivery Date must be after Order Date
+
+### Reports
+* Purchase Order Status Summary — shows On Time / Delayed orders grouped by Delivery Status
+* Quality Performance by Supplier — shows defect rates from inspections
